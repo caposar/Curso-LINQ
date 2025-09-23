@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CursoLINQ.Modulo_2
+﻿namespace CursoLINQ.Modulo_2
 {
     public class SingleDemo
     {
@@ -19,13 +13,10 @@ namespace CursoLINQ.Modulo_2
             };
 
             // -----------------------------------------------------------------------------
-
-            // El método "Single" retorna el único elemento que satisface la condición.
+            // - El método "Single" retorna el único elemento que satisface la condición.
             // lanza una excepcion si la secuencia contiene más de un elemento que cumple la condición o si no contiene ningún elemento que la cumpla.
-
-            // El método "SingleOrDefault" retorna el único elemento que satisface la condición ó el valor por defecto del tipo de dato si no encuentra ningún elemento.
+            // - El método "SingleOrDefault" retorna el único elemento que satisface la condición ó el valor por defecto del tipo de dato si no encuentra ningún elemento.
             // lanza una excepción si la secuencia contiene más de un elemento que cumpla la condición.
-
             // -----------------------------------------------------------------------------
 
             // Sintaxis 1: Sintaxis de métodos (Sintaxis de Lambda)

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CursoLINQ.Modulo_3
+﻿namespace CursoLINQ.Modulo_3
 {
     public class ThenByDemo
     {
@@ -19,11 +13,10 @@ namespace CursoLINQ.Modulo_3
             };
 
             // -----------------------------------------------------------------------------
-
-            // ThenBy ordena una secuencia por un segundo criterio de forma ascendente.Se utiliza después de OrderBy o OrderByDescending para manejar los "empates".
-
-            // ThenByDescending ordena una secuencia por un segundo criterio de forma descendente. Al igual que ThenBy, se usa para desempates después de un ordenamiento principal.
-
+            // - ThenBy ordena una secuencia por un segundo criterio de forma ascendente.
+            // Se utiliza después de OrderBy o OrderByDescending para manejar los "empates".
+            // - ThenByDescending ordena una secuencia por un segundo criterio de forma descendente.
+            // Al igual que ThenBy, se usa para desempates después de un ordenamiento principal.
             // -----------------------------------------------------------------------------
 
             var personasOrdenadasPorEdad = personas.OrderBy(x => x.Edad).ThenByDescending(x => x.Nombre);

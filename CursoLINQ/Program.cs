@@ -2,6 +2,8 @@
 using CursoLINQ.Modulo_1;
 using CursoLINQ.Modulo_2;
 using CursoLINQ.Modulo_3;
+using CursoLINQ.Modulo_4;
+using CursoLINQ.Modulo_5;
 
 // ================================= Modulo_1 =================================
 //EjecucionDiferida ejecucionDiferida = new EjecucionDiferida();
@@ -44,8 +46,29 @@ using CursoLINQ.Modulo_3;
 //thenByDemo.Ejemplo();
 
 // ----------------------------------------------------------------------------
-ReverseDemo reverseDemo = new ReverseDemo();
-reverseDemo.Ejemplo();
+//ReverseDemo reverseDemo = new ReverseDemo();
+//reverseDemo.Ejemplo();
 
 // ================================= Modulo_4 =================================
+//SelectDemo selectDemo = new SelectDemo();
+//selectDemo.Ejemplo();
 
+// ----------------------------------------------------------------------------
+//SelectManyDemo selectManyDemo = new SelectManyDemo();
+//selectManyDemo.Ejemplo();
+
+// ================================= Modulo_5 =================================
+//Conteo conteo = new Conteo();
+//conteo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//SumMaxMin sumMaxMin = new SumMaxMin();
+//sumMaxMin.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//Promedio promedio = new Promedio();
+//promedio.Ejemplo();
+
+// ----------------------------------------------------------------------------
+Agregado agregado = new Agregado();
+agregado.Ejemplo();

@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Runtime.ConstrainedExecution;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-
-namespace CursoLINQ.Modulo_2
+﻿namespace CursoLINQ.Modulo_2
 {
     public class ElementAtDemo
     {
@@ -22,16 +13,17 @@ namespace CursoLINQ.Modulo_2
             };
 
             // -----------------------------------------------------------------------------
-
-            // El método ElementAt retorna el elemento en la posición especificada de una secuencia.
+            // - El método ElementAt retorna el elemento en la posición especificada de una secuencia.
             // Lanza una excepción de tipo ArgumentOutOfRangeException si el índice está fuera del rango de la secuencia.
-
-            // El método ElementAtOrDefault retorna el elemento en la posición especificada ó el valor por defecto del tipo si el índice está fuera del rango de la secuencia.
-
+            // 
+            // - El método ElementAtOrDefault retorna el elemento en la posición especificada ó
+            // el valor por defecto del tipo si el índice está fuera del rango de la secuencia.
             // -----------------------------------------------------------------------------
+
             var terceraPersona = personas.ElementAt(2);
 
             // -----------------------------------------------------------------------------
+
             // Sintaxis 1: Sintaxis de métodos (Sintaxis de Lambda)
             var sextaPersona = personas.ElementAtOrDefault(5);
 

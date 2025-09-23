@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CursoLINQ.Modulo_2
+﻿namespace CursoLINQ.Modulo_2
 {
     public class OfTypeDemo
     {
         public void Ejemplo()
         {
-            // El método OfType filtra una secuencia para devolver solo los elementos de un tipo específico.
+            // -----------------------------------------------------------------------------
+            // - El método OfType filtra una secuencia para devolver solo los elementos de un tipo específico.
+            // -----------------------------------------------------------------------------
 
             var listado = new List<object>() { "Felipe", 1, 2, "Claudia", true };
 
