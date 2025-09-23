@@ -4,6 +4,8 @@ using CursoLINQ.Modulo_2;
 using CursoLINQ.Modulo_3;
 using CursoLINQ.Modulo_4;
 using CursoLINQ.Modulo_5;
+using CursoLINQ.Modulo_6;
+using CursoLINQ.Modulo_7;
 
 // ================================= Modulo_1 =================================
 //EjecucionDiferida ejecucionDiferida = new EjecucionDiferida();
@@ -70,5 +72,33 @@ using CursoLINQ.Modulo_5;
 //promedio.Ejemplo();
 
 // ----------------------------------------------------------------------------
-Agregado agregado = new Agregado();
-agregado.Ejemplo();
+//Agregado agregado = new Agregado();
+//agregado.Ejemplo();
+
+// ================================= Modulo_6 =================================
+//AllDemo allDemo = new AllDemo();
+//allDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//AnyDemo anyDemo = new AnyDemo();
+//anyDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//ContainsDemo containsDemo = new ContainsDemo();
+//containsDemo.Ejemplo();
+
+// ================================= Modulo_7 =================================
+//TakeYTakeLast takeYTakeLast = new TakeYTakeLast();
+//takeYTakeLast.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//SkipYSkipLast skipYSkipLast = new SkipYSkipLast();
+//skipYSkipLast.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//Paginacion paginacion = new Paginacion();
+//paginacion.Ejemplo();
+
+// ----------------------------------------------------------------------------
+TakeWhileSkipWhile takeWhileSkipWhile = new TakeWhileSkipWhile();
+takeWhileSkipWhile.Ejemplo();
