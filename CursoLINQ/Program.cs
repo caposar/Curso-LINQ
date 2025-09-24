@@ -6,6 +6,8 @@ using CursoLINQ.Modulo_4;
 using CursoLINQ.Modulo_5;
 using CursoLINQ.Modulo_6;
 using CursoLINQ.Modulo_7;
+using CursoLINQ.Modulo_8;
+using CursoLINQ.Modulo_9;
 
 // ================================= Modulo_1 =================================
 //EjecucionDiferida ejecucionDiferida = new EjecucionDiferida();
@@ -100,5 +102,22 @@ using CursoLINQ.Modulo_7;
 //paginacion.Ejemplo();
 
 // ----------------------------------------------------------------------------
-TakeWhileSkipWhile takeWhileSkipWhile = new TakeWhileSkipWhile();
-takeWhileSkipWhile.Ejemplo();
+//TakeWhileSkipWhile takeWhileSkipWhile = new TakeWhileSkipWhile();
+//takeWhileSkipWhile.Ejemplo();
+
+// ================================= Modulo_8 =================================
+//GroupByDemo groupByDemo = new GroupByDemo();
+//groupByDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//GroupByEdad groupByEdad = new GroupByEdad();
+//groupByEdad.Ejemplo();
+
+// ================================= Modulo_9 =================================
+//JoinDemo joinDemo = new JoinDemo();
+//joinDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+GroupJoinDemo groupJoinDemo = new GroupJoinDemo();
+groupJoinDemo.Ejemplo();
+
