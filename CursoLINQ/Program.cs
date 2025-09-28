@@ -1,5 +1,7 @@
 ﻿
 using CursoLINQ.Modulo_1;
+using CursoLINQ.Modulo_10;
+using CursoLINQ.Modulo_11;
 using CursoLINQ.Modulo_2;
 using CursoLINQ.Modulo_3;
 using CursoLINQ.Modulo_4;
@@ -118,6 +120,38 @@ using CursoLINQ.Modulo_9;
 //joinDemo.Ejemplo();
 
 // ----------------------------------------------------------------------------
-GroupJoinDemo groupJoinDemo = new GroupJoinDemo();
-groupJoinDemo.Ejemplo();
+//GroupJoinDemo groupJoinDemo = new GroupJoinDemo();
+//groupJoinDemo.Ejemplo();
+
+// ================================= Modulo_10 =================================
+//DistinctDemo distinctDemo = new DistinctDemo();
+//distinctDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//UnionDemo unionDemo = new UnionDemo();
+//unionDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//ExceptDemo exceptDemo = new ExceptDemo();
+//exceptDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//IntersectDemo intersectDemo = new IntersectDemo();
+//intersectDemo.Ejemplo();
+
+// ================================= Modulo_10 =================================
+//ConcatDemo concatDemo = new ConcatDemo();
+//concatDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//SequenceEqualDemo sequenceEqualDemo = new SequenceEqualDemo();
+//sequenceEqualDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+//ZipDemo zipDemo = new ZipDemo();
+//zipDemo.Ejemplo();
+
+// ----------------------------------------------------------------------------
+TryGetNonEnumeratedCountDemo tryGetNonEnumeratedCountDemo = new TryGetNonEnumeratedCountDemo();
+tryGetNonEnumeratedCountDemo.Ejemplo();
 
