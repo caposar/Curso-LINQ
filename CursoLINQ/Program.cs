@@ -139,7 +139,7 @@ using CursoLINQ.Modulo_9;
 //IntersectDemo intersectDemo = new IntersectDemo();
 //intersectDemo.Ejemplo();
 
-// ================================= Modulo_10 =================================
+// ================================= Modulo_11 =================================
 //ConcatDemo concatDemo = new ConcatDemo();
 //concatDemo.Ejemplo();
 
@@ -152,6 +152,8 @@ using CursoLINQ.Modulo_9;
 //zipDemo.Ejemplo();
 
 // ----------------------------------------------------------------------------
-TryGetNonEnumeratedCountDemo tryGetNonEnumeratedCountDemo = new TryGetNonEnumeratedCountDemo();
-tryGetNonEnumeratedCountDemo.Ejemplo();
+//TryGetNonEnumeratedCountDemo tryGetNonEnumeratedCountDemo = new TryGetNonEnumeratedCountDemo();
+//tryGetNonEnumeratedCountDemo.Ejemplo();
 
+// =============================================================================
+Console.WriteLine("El código de ejemplo se encuentra en las respectivas carpetas");

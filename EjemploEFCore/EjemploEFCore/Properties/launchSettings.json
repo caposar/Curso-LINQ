@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EjemploEFCore": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\cesar\\Documents\\GitHub\\Curso-LINQ\\EjemploEFCore\\EjemploEFCore"
+    }
+  }
+}
